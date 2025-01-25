@@ -1,0 +1,24 @@
+.circle{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: black;
+
+}
+
+.square{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.rectangle{
+    border: 1px solid black;
+    width: 160px;
+    height: 100px;
+    background-color: green;
+}
+
+
+

@@ -13,19 +13,27 @@ export const OrderList=()=>{
 export const UnorderList=()=>{
     return(
         <div>
-            <ListItems></ListItems>
+            <ul>
+                <ListItems></ListItems>
+            </ul>
         </div>
     )
 }
 
 const ListItems=()=>{
+    const  furits=["Apple","Banana","Cat","Dog","Elephant"]
     return(
-        <div>
-            <li>Apple</li>
-            <li>Banana</li>
-            <li>Cat</li>
-            <li>Dog</li>
-            <li>Elephant</li>
-        </div>
+        <>
+        {
+            furits.map((fruit)=>{
+                return(
+                    <>
+                    <li>{fruit}</li>
+                    </>
+                )
+            })
+
+        }
+        </>
     )
 }

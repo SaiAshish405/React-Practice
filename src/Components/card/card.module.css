@@ -1,0 +1,19 @@
+
+.cardCss{
+    border: 1px black solid;
+    height:380px;
+    width: 280px;
+   background-color: rgba(184, 21, 21, 0.735);
+   color: aliceblue;
+   border-radius: 10px;
+}
+.para{
+    margin-left: 20px;
+}
+.div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
